@@ -11,7 +11,7 @@ struct ContentView: View {
     @State private var input = 100.0
     @State private var inputUnit = UnitLength.meters
     @State private var outputUnit = UnitLength.kilometers
-    @State private var output = 100.0
+    @State private var output = 10.0
     
     let lenghUnits: [UnitLength] = [.meters, .feet, .yards, .miles, .kilometers]
     let formatter: MeasurementFormatter
